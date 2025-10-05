@@ -1,0 +1,442 @@
+<!doctype html>
+<html class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/node_modules/remixicon/fonts/remixicon.css">
+  
+  <link href="/src/css/style.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+  <!-- mouse cursor----------------------------------- -->
+  <div class="cursor-circle "></div>
+
+  <!-- Preloader ---------------------------------------------->
+  <div id="preloader" class="fixed inset-0 bg-black flex justify-center items-center z-50 transition-opacity duration-[2000ms]">
+    <div class="relative w-20 h-20 flex items-center justify-center">
+      <div class="absolute inset-0 border-2 border-t-transparent border-text rounded-full animate-spin"></div>
+      <img src="/src/assets/images/loader.png" alt="Loading..." class="w-10 h-10 z-10">
+          
+    </div>
+  </div>
+
+  <!-- header ----------------------------------------------- -->
+  <header class="header" id="header"></header>
+
+  
+
+
+
+  <!-- hero section  ----------------------------------------------->
+  <section class="hero-section pt-[100px] md:pt-0 pb-[50px] md:pb-[90px]  md:h-[100vh] bg-lightbackground dark:bg-secondary relative z-0  -mt-[90px] overflow-hidden">
+  <div class="container flex flex-col justify-end items-start h-full overflow-hidden">
+    <span class="right-side w-[30%] h-1/2 absolute top-0 right-0 "></span>
+    <span class="left-side w-[30%] h-1/2 absolute top-0 left-0 "></span>
+    <div class="first flex text-lightprimary dark:text-primary justify-between  w-full  z-20">
+      <h1 class="text-[50px] md:text-[200px] leading-[50px] md:leading-[200px]  font-bold w-[75%] hero-title h-full">CREATIVE</h1>
+      <div class="flex flex-col items-center w-[20%]">
+
+        <img class="animate-wiggle object-contain w-[120px]" src="/src/assets/images/home/element.png" alt="">
+      </div>
+    </div>
+    <div class="second flex flex-col-reverse -mt-[20px] md:mt-0 md:flex-row items-center w-full">
+      <p class="text-lighttext dark:text-text text-base leading-6 font-normal w-full md:w-[40%]">We are a <span class="text-lightprimary dark:text-primary">Creative Agency</span> with over 25 years of Our<br/> experience, specializing in delivering cutting-edge digital<br/> solutions, including web design.</p>
+      <h1 class="text-[50px] md:text-[200px] leading-[50px] md:leading-[200px] font-bold text-lightprimary dark:text-primary w-full md:w-[75%] z-20 hero-title h-full">AGENCY</h1>
+    </div>
+    <a href="" class="btn text-secondary bg-accent w-fit px-4 py-2 mt-5 md:mt-0 text-xl capitalize font-medium rounded-4xl" data-aos="fade-up">learn more</a>
+  </div>
+  </section>
+
+  <!-- vedio-section-------------------------------------------------- -->
+
+  <section class=" vedio-section pt-[20px] md:pt-30 pb-8 md:pb-20 bg-lightbackground dark:bg-secondary" >
+    <div class="container">
+      <div class="video flex justify-center items-center relative " data-aos="fade-up">
+        <img src="/src/assets/images/home/hero-img1.jpg" class="rounded-2xl" alt="">
+        <i class="ri-play-large-fill text-4xl bg-accent w-20 h-20 rounded-full flex justify-center items-center absolute "></i>
+      </div>
+    </div>
+  </section>
+  
+  <!-- our-services ------------------------------------------------------>
+
+  <section class="our-services bg-primary dark:bg-light-gray py-12">
+    <div class="container">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal border border-accent py-2 px-4 rounded-3xl"   data-aos="fade-up">Our Service </span>
+      <div class="ser-text flex flex-col md:flex-row justify-between items-start md:items-center mt-6">
+        <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold"  data-aos="fade-up">Innovative Services That<br/> Elevate Your Brand</h2>
+        <p class="text-lighttext dark:text-text text-base leading-7 font-normal mt-3 md:mt-30 " data-aos="fade-up">We are a <span class="text-lightprimary dark:text-primary font-medium">digital Creative agency</span>  with 25 <br/>years of experience, specializing in<br/> delivering cutting-edge</p>
+      </div>
+      <div class="services flex flex-col md:flex-row justify-between items-start gap-5 mt-3 md:mt-0 ">
+        <!-- 1 -->
+        <div class=" hover-target card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-16 px-8 mt-0" data-aos="fade-up" data-aos-duration="1000">
+          <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Website Development</h4>
+          <p class="text-lighttext dark:text-text text-base leading-7 font-normal ">We are responsive user-friendly websites tailored to your brand, ensuring seamless functionality, engaging design optimized.</p>
+          <a href="src/pages/services.html" class="btn text-lightprimary dark:text-primary text-base leading-6 capitalize font-medium ">learn more</a>
+        </div>
+        <!-- 2 -->
+        <div class="hover-target card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-16 px-8 mt-0 md:mt-[60px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Website Development</h4>
+          <p class="text-lighttext dark:text-text text-base leading-7 font-normal ">We are responsive user-friendly websites tailored to your brand, ensuring seamless functionality, engaging design optimized.</p>
+          <a href="src/pages/services.html" class="btn text-lightprimary dark:text-primary text-base leading-6 capitalize font-medium ">learn more</a>
+        </div>
+        <!-- 3 -->
+        <div class="hover-target card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-16 px-8 mt-0 md:mt-[120px]" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Website Development</h4>
+          <p class="text-lighttext dark:text-text text-base leading-7 font-normal ">We are responsive user-friendly websites tailored to your brand, ensuring seamless functionality, engaging design optimized.</p>
+          <a href="src/pages/services.html" class="btn text-lightprimary dark:text-primary text-base leading-6 capitalize font-medium ">learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- work ----------------------------------------------------------->
+
+  <section class="work bg-primary dark:bg-light-gray py-20">
+    <div class="container flex flex-col items-center justify-center">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal  border border-accent py-2 px-4 rounded-3xl" data-aos="zoom-in" data-aos-duration="1500">Complete Work </span>
+      <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold mt-6 text-center" data-aos="zoom-in" ata-aos-duration="1500" >Creative Projects We've<br/>Delivered To Client</h2>
+      <div class="cards flex justify-center items-start gap-5 mt-10 flex-wrap ">
+        <!-- 1 -->
+        <div class="hover-target card p-6 bg-lightbackground dark:bg-graay rounded-3xl group " data-aos="fade-up" data-aos-duration="1000">
+          <div class="image relative overflow-hidden rounded-3xl">
+            <img src="/src/assets/images/home/project1.jpg" class="rounded-3xl group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute bottom-5 left-5">
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">website</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">landing page</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">ui/ux</span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary">
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Banking & Financial Mobile Apps</h3>
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal">AWe develop secure, user-friendly banking apps, streamlining financial services</p>
+          </div>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="hover-target card p-6 bg-lightbackground dark:bg-graay rounded-3xl group " data-aos="fade-up" data-aos-duration="1000">
+          <div class="image relative overflow-hidden rounded-3xl">
+            <img src="/src/assets/images/home/project2.jpg" class="rounded-3xl group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute bottom-5 left-5">
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">website</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">landing page</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">ui/ux</span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary" >
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Knead That Dough Brand Identity</h3>
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal">Crafting a fresh, vibrant brand identity for Knead That Dough.</p>
+          </div>
+        </div>
+
+
+
+        <!-- 3 -->
+        <div class="hover-target card p-6 bg-lightbackground dark:bg-graay rounded-3xl group mt-0 md:mt-7" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image relative overflow-hidden rounded-3xl">
+            <img src="/src/assets/images/home/project3.jpg" class="rounded-3xl group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute bottom-5 left-5">
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">website</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">landing page</span>
+              <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">ui/ux</span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary" >
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Software Agency Website Header</h3>
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal">Building innovative software solutions to drive your business forward.</p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="hover-target -mt-0 md:-mt-[50px] ">
+          <div class="card p-6 bg-lightbackground dark:bg-graay rounded-3xl group mb-10" data-aos="fade-up" data-aos-duration="1000">
+            <div class="image relative overflow-hidden rounded-3xl">
+              <img src="/src/assets/images/home/project2.jpg" class="rounded-3xl group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+              <div class="text flex gap-3 absolute bottom-5 left-5">
+                <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">website</span>
+                <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">landing page</span>
+                <span class="py-1 px-2 md:py-2 md:px-4 bg-lightbackground dark:bg-graay border border-text text-lightprimary dark:text-primary rounded-xl md:rounded-4xl capitalize">ui/ux</span>
+              </div>
+            </div>
+            <div class="info py-5 text-lightprimary dark:text-primary" >
+              <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Crypto Tap Wallet Mobile Apps</h3>
+              <p class="text-lighttext dark:text-text text-base leading-7 font-normal">Secure, fast, and user-friendly crypto wallet for seamless.</p>
+            </div>
+          </div>
+            <a href="src/pages/project.html" class="btn text-secondary bg-accent w-fit px-4 py-2 text-xl capitalize font-medium rounded-4xl" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">view all</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- process --------------------------------------------------------------->
+
+  <section class="process bg-primary dark:bg-light-gray py-20">
+    <div class="container flex flex-col items-center justify-center">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal  border border-accent py-2 px-4 rounded-3xl" data-aos="fade-up" data-aos-duration="1000">Working Proses</span>
+      <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold mt-6 text-center"  data-aos="fade-up" data-aos-duration="1000">The Process Behind the<br/>Magic Step by Step</h2>
+      <div class="process flex flex-col md:flex-row justify-between items-start gap-5 md:border-t-2 border-lightborder dark:border-graay mt-20 ">
+        <!-- 1 -->
+        <div class="full-card flex flex-col justify-center items-center -mt-3.5"  data-aos="fade-up" data-aos-duration="1000">
+          <span class="text-secondary text-[20px] leading-2.5 font-medium bg-accent py-2 px-5 rounded-3xl capitalize w-fit">step 01</span>
+          <span class=" w-0.5 h-10 bg-lightbackground dark:bg-graay"></span>
+          <div class="card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-10 px-8 mt-0 text-center">
+            <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Research</h4>
+            <p class="text-text text-base leading-7 font-normal ">In-depth research to uncover of insights and drive informed</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="full-card flex flex-col justify-center items-center -mt-0 md:-mt-3.5"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <span class="text-secondary text-[20px] leading-2.5 font-medium bg-accent py-2 px-5 rounded-3xl capitalize w-fit">step 02</span>
+          <span class=" w-0.5 h-10 bg-lightbackground dark:bg-graay"></span>
+          <div class="card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-10 px-8 mt-0 text-center">
+            <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Concept Design</h4>
+            <p class="text-text text-base leading-7 font-normal ">Creative concept designs that transform ideas into impactful</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="full-card flex flex-col justify-center items-center -mt-0 md:-mt-3.5"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <span class="text-secondary text-[20px] leading-2.5 font-medium bg-accent py-2 px-5 rounded-3xl capitalize w-fit">step 03</span>
+          <span class=" w-0.5 h-10 bg-lightbackground dark:bg-graay"></span>
+          <div class="card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-10 px-8 mt-0 text-center">
+            <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Implementation</h4>
+            <p class="text-text text-base leading-7 font-normal ">Efficient implementation of the tailored strategies to achieve</p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="full-card flex flex-col justify-center items-center -mt-0 md:-mt-3.5"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <span class="text-secondary text-[20px] leading-2.5 font-medium bg-accent py-2 px-5 rounded-3xl capitalize w-fit">step 04</span>
+          <span class=" w-0.5 h-10 bg-lightbackground dark:bg-graay"></span>
+          <div class="card flex flex-col gap-4 bg-lightbackground dark:bg-graay py-10 px-8 mt-0 text-center">
+            <h4 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold ">Testing</h4>
+            <p class="text-text text-base leading-7 font-normal ">Testing to ensure flawless good functionality and optimal user</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- company ------------------------------------------------------------>
+  <section class="company bg-primary dark:bg-graay py-20 md:py-40">
+    <div class="container flex flex-col md:flex-row  items-center ">
+      <div class="one w-full md:w-[50%]">
+        <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal  border border-accent py-2 px-4 rounded-3xl" data-aos="fade-up" data-aos-duration="500">Company</span>
+        <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold mt-6 " data-aos="fade-up" data-aos-duration="1000">Trusted Our Company</h2>
+        <p class="text-lighttext dark:text-text text-base leading-7 font-normal mt-6" data-aos="fade-up" data-aos-duration="1000">We are a Digital Creative agency with 25 years of experience, specializing<br/> in delivering cutting-edge</p>
+      </div>
+      <div class="two flex flex-wrap w-full md:w-[50%] mt-5 md:mt-0"  data-aos="fade-up" data-aos-duration="1000">
+        <!-- 1 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent  w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client2.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+        <!-- 2 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client3.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+        <!-- 3 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client4.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+        <!-- 4 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client2.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+        <!-- 5 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client2.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+        <!-- 6 -->
+        <div class="image py-[60px] px-[20px] bg-graay dark:bg-transparent w-[33.33%] border border-text flex justify-center items-center group" >
+          <img src="/src/assets/images/home/client2.png" class=" opacity-70  group-hover:opacity-100 transition-all duration-300" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our_Team ------------------------------------------------------------->
+
+  <section class="Our_Team bg-lightbackground dark:bg-light-gray py-20">
+    <div class="container">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal border border-accent py-2 px-4 rounded-3xl" data-aos="fade-up">Our Team</span>
+      <div class="ser-text flex flex-col md:flex-row justify-between items-start md:items-center mt-6 gap-y-5 md:gap-y-0">
+        <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 md: font-bold" data-aos="fade-up">Meet Our Talented<br/>Skillful Team</h2>
+        <a href="/src/pages/project.html" class="btn text-secondary bg-accent w-fit px-4 py-2 text-xl capitalize font-medium rounded-4xl" data-aos="fade-up">view all</a>
+      </div>
+      <div class="team flex flex-wrap ">
+        <!-- 1 -->
+        <div class="card  group mt-7 w-full md:w-[25%] p-2" data-aos="fade-up" data-aos-duration="1000" >
+          <div class="image relative overflow-hidden ">
+            <img src="/src/assets/images/home/team1.jpg" class=" w-full group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute top-5 right-10">
+              <span class=" w-10 h-10 flex justify-center items-center bg-primary text-2xl text-secondary rounded-full capitalize"><i class="ri-add-line"></i></span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary">
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal flex items-center"><span class=" w-10 h-[1.5px] me-1.5 bg-text inline-block "></span>Developer</p>
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Mr. David Liam</h3>
+          </div>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="card  group mt-7 w-full md:w-[25%] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <div class="image relative overflow-hidden ">
+            <img src="/src/assets/images/home/team2.jpg" class=" w-full group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute top-5 right-10">
+              <span class=" w-10 h-10 flex justify-center items-center bg-primary text-2xl text-secondary rounded-full capitalize"><i class="ri-add-line"></i></span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary">
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal flex items-center"><span class=" w-10 h-[1.5px] me-1.5 bg-text inline-block "></span>Developer</p>
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Mr. David Liam</h3>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="card  group mt-7 w-full md:w-[25%] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="image relative overflow-hidden ">
+            <img src="/src/assets/images/home/team3.jpg" class="w-full group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute top-5 right-10">
+              <span class=" w-10 h-10 flex justify-center items-center bg-primary text-2xl text-secondary rounded-full capitalize"><i class="ri-add-line"></i></span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary">
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal flex items-center"><span class=" w-10 h-[1.5px] me-1.5 bg-text inline-block "></span>Developer</p>
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Mr. David Liam</h3>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="card  group mt-7 w-full md:w-[25%] p-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="image relative overflow-hidden ">
+            <img src="/src/assets/images/home/team4.jpg" class="w-full group-[&:hover]:scale-[1.1] transition-all duration-300" alt="">
+            <div class="text flex gap-3 absolute top-5 right-10">
+              <span class=" w-10 h-10 flex justify-center items-center bg-primary text-2xl text-secondary rounded-full capitalize"><i class="ri-add-line"></i></span>
+            </div>
+          </div>
+          <div class="info py-5 text-lightprimary dark:text-primary">
+            <p class="text-lighttext dark:text-text text-base leading-7 font-normal flex items-center"><span class=" w-10 h-[1.5px] me-1.5 bg-text inline-block "></span>Developer</p>
+            <h3 class="text-2xl leading-9 font-bold  hover:text-accent transition-all duration-300">Mr. David Liam</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<!-- Our Award --------------------------------------------------------------->
+  <section class="Our_Award bg-primary dark:bg-light-gray py-20">
+    <div class="container">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal border border-accent py-2 px-4 rounded-3xl" data-aos="fade-up">Our Award</span>
+      <div class="ser-text flex flex-col md:flex-row justify-between items-start mt-6">
+        <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold" data-aos="fade-up">Striving for Excellence<br/> Awards & Recognition</h2>
+        <p class="text-lighttext dark:text-text  text-base leading-7 font-normal " data-aos="fade-up">We are a <span class="text-lightprimary dark:text-primary font-medium">digital Creative agency</span>  with 25 <br/>years of experience, specializing in<br/> delivering cutting-edge</p>
+      </div>
+      <div class="award mt-[60px] flex flex-col md:flex-row  gap-5 " data-aos="fade-up" data-aos-duration="1000">
+        <div class="one w-[100%] md:w-[30%]">
+          <img src="/src/assets/images/home/award1.jpg" alt="">
+        </div>
+        <div class="two flex flex-col w-[100%] md:w-[70%] gap-4.5">
+          <!-- 1 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" >
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+          <!-- 2 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+          <!-- 3 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+          <!-- 4 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+          <!-- 5 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+          <!-- 6 -->
+          <div class="content flex flex-col md:flex-row items-center text-center md:text-start bg-lightbackground dark:bg-graay justify-between py-4 px-6 group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[100%] md:w-[30%] group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Microsoft Platform</h3>
+            <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold w-[100%] md:w-[40%] group-hover:text-accent transition-all duration-200 ">Website 2024 - 1st Winner</h3>
+            <h3 class="text-lighttext dark:text-text  text-xl leading-9 font-bold w-[30%] text-end group-hover:text-lightprimary dark:group-hover:text-primary transition-all duration-200 ">Mar 2024</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- blogs ----------------------------------------------------------->
+   <section class="blogs bg-primary dark:bg-light-gray py-20">
+    <div class="container">
+      <span class="text-lightprimary dark:text-primary text-base leading-2.5 font-normal border border-accent py-2 px-4 rounded-3xl" data-aos="fade-up" data-aos-duration="1000">Latest Articles</span>
+      <div class="ser-text flex flex-col md:flex-row justify-between items-start md:items-center mt-6">
+        <h2 class="text-lightprimary dark:text-primary text-3xl leading-8 md:text-5xl md:leading-12 font-bold" data-aos="fade-up" data-aos-duration="1000">Stay Updated with Our Recent Articles</h2>
+        <a href="/src/pages/project.html" class="btn text-secondary bg-accent w-fit px-4 py-2 text-xl capitalize font-medium rounded-4xl mt-5 md:mt-0" data-aos="fade-up" data-aos-duration="1000">view all blogs</a>
+      </div>
+      <div class="blog">
+        <div class="blog-content flex flex-col md:flex-row items-center justify-between mt-12 gap-5">
+          <!-- blog-1  -->
+          <div class="left w-full md:w-[50%]  p-5 rounded-xl bg-lightbackground dark:bg-graay flex flex-col md:flex-row gap-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="image w-full md:w-[50%] ">
+              <img src="/src/assets/images/home/blog1.jpg"  class ="rounded-xl w-full h-full" alt="">
+            </div>
+            <div class="expert w-full md:w-[50%]  gap-3 flex flex-col justify-center">
+              <span class="py-2 px-4 bg-graay border border-text text-primary rounded-4xl capitalize w-fit">website</span>
+              <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold hover:text-accent transition-all duration-300">MKT Gency for your online business Plane.</h3>
+              <p class="text-lighttext dark:text-text  text-xl leading-6 font-normal">Strategic marketing agency boosting to your online business success.</p>
+              <p class="text-lighttext dark:text-text  text-xl leading-6 font-normal">15 Apr, 2024</p>
+            </div>
+          </div>
+
+          <!-- blog-2  -->
+          <div class="left w-full md:w-[50%]  p-5 rounded-xl bg-lightbackground dark:bg-graay flex flex-col md:flex-row gap-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="image w-full md:w-[50%] ">
+              <img src="/src/assets/images/home/blog2.jpg"  class ="rounded-xl w-full h-full" alt="">
+            </div>
+            <div class="expert w-full md:w-[50%]  gap-3 flex flex-col justify-center">
+              <span class="py-2 px-4 bg-graay border border-text text-primary rounded-4xl capitalize w-fit">website</span>
+              <h3 class="text-lightprimary dark:text-primary text-2xl leading-9 font-bold hover:text-accent transition-all duration-300">MKT Gency for your online business Plane.</h3>
+              <p class="text-lighttext dark:text-text  text-xl leading-6 font-normal">Strategic marketing agency boosting to your online business success.</p>
+              <p class="text-lighttext dark:text-text  text-xl leading-6 font-normal">15 Apr, 2024</p>
+            </div>
+          </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- foooter section ----------------------------------------------- -->
+   <footer id="footer"></footer>
+   <script src="/src/js/cursor.js"></script>
+   <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

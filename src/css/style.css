@@ -1,0 +1,143 @@
+@import url('../../node_modules/remixicon/fonts/remixicon.css');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme{
+
+    /* dark mode */
+     --color-primary: #fff;
+     --color-secondary: #000;
+     --color-accent: #9CFE4F;
+     --color-light-gray: #0E0F11;
+     --color-text: #9e9fa0;
+     --color-graay: #18191B;
+     --color-breadcrumb: #202122;
+     --color-border: #ffffff33;
+
+    /* light mode */
+     --color-lightprimary: #1a1a1a;
+     --color-lighttext: #6b7280;
+     --color-lightbackground: #f9fafb;
+     --color-boxbackground: #ffffff;
+     --color-lightborder: #e5e7eb;
+
+
+
+     --animate-wiggle: wiggle 5s linear infinite;
+    @keyframes wiggle {
+        0%{
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+
+    }
+}
+.container{
+     width: 1300px;
+     margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('/src/assets/fontsSourceSans3-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('/src/assets/fonts/SourceSans3-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('/src/assets/fonts/SourceSans3-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('/src/assets/fonts/SourceSans3-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    
+}
+.left-side{
+    border-radius: 50%;
+    background: rgba(155, 235, 94, 1);
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+}
+
+.right-side{
+    border-radius: 50%;
+    background: #8778F5;
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+}
+
+.cursor-circle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+   background: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    pointer-events: none; 
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: 9999;
+    display: flex;               
+    align-items: center;         
+    justify-content: center;     
+    font-size: 12px;           
+    color: black;            
+    font-weight: bold;  
+    transition: width 0.2s ease, height 0.2s ease, transform 0.1s ease;
+ 
+}
+
+
+/* swipper  */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .review {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+

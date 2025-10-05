@@ -1,0 +1,38 @@
+
+  <header class="header z-20" id="header">
+  <div class="container">
+    <nav class="flex justify-between items-center py-4 z-40 relative">
+
+      <!-- Logo -->
+      <div class="logo p-1 border border-secondary rounded-3xl w-fit">
+        <a href="/">
+          <img src="/src/assets/images/home/logo-main.png" alt="">
+        </a>
+      </div>
+      <button id="theme-toggle-ph" class="theme-toggle px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded md:hidden">
+        <i class="ri-moon-line"></i>
+    </button>
+      <!-- Toggle Button -->
+      <button id="menu-toggle" class="menu-toggle md:hidden text-3xl text-lightprimary dark:text-primary focus:outline-none border border-lightprimary dark:border-border py-1 px-1.5 rounded-xl flex items-center">
+        <i class="ri-menu-line text-2xl"></i>
+      </button>
+
+      <!-- Menu -->
+      <div id="menu" class="menu hidden md:flex flex-col md:flex-row md:items-center md:justify-start
+      w-[80%] md:w-[70%] absolute md:static top-full left-0  bg-white md:bg-transparent shadow-md md:shadow-none transition-all duration-500">
+        <ul class="flex flex-col md:flex-row gap-4 md:gap-6 py-4 md:py-3 px-5 bg-light-gray md:w-fit rounded-none md:rounded-3xl border-t md:border md:border-text">
+          <li><a href="/" class="text-primary text-base leading-6 font-medium">Home</a></li>
+          <li><a href="/src/pages/about.html" class="text-primary text-base leading-6 font-medium">About</a></li>
+          <li><a href="/src/pages/services.html" class="text-primary text-base leading-6 font-medium">Services</a></li>
+          <li><a href="/src/pages/project.html" class="text-primary text-base leading-6 font-medium">Projects</a></li>
+          <li><a href="/src/pages/contact.html" class="text-primary text-base leading-6 font-medium">Contact</a></li>
+        </ul>
+      </div>
+      <button id="theme-toggle-pc" class=" theme-toggle hidden md:block px-4 py-2 bg-lightbackground dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded ">
+        <i class="ri-moon-line"></i>
+    </button>
+      <!-- Button -->
+      <a href="#" class="hidden md:block btn text-secondary bg-accent w-fit px-4 py-2 text-xl uppercase font-medium rounded-4xl">lets talk</a>
+    </nav>
+  </div>
+</header>
