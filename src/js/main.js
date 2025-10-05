@@ -7,25 +7,25 @@ import "./swipper.js";
 
 
 const pageConfig = {
-  "/src/pages/about.html": {
+  "/about.html": {
     title: "About Us",
     breadcrumb: "About",
-    herf: "/src/pages/about.html"
+    herf: "/about.html"
   },
-  "/src/pages/services.html": {
+  "/services.html": {
     title: "Services",
     breadcrumb: "Services",
-    herf: "/src/pages/services.html"
+    herf: "/services.html"
   },
-  "/src/pages/project.html": {
+  "/project.html": {
     title: "Project",
     breadcrumb: "Project",
-    herf: "/src/pages/project.html"
+    herf: "/project.html"
   },
-  "/src/pages/contact.html": {
+  "/contact.html": {
     title: "Contact",
     breadcrumb: "Contact",
-    herf: "/src/pages/contact.html"
+    herf: "/contact.html"
   }
 };
 
