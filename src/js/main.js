@@ -33,7 +33,7 @@ async function loadComponent(id, file, callback) {
   const el = document.getElementById(id);
   if (!el) return;
   try {
-    const res = await fetch(`/public/components/${file}`);
+    const res = await fetch(`/components/${file}`);
     if (!res.ok) throw new Error(`Failed to load ${file}`);
     const html = await res.text();
     el.innerHTML = html;
